@@ -1,0 +1,62 @@
+:root {
+    --background-color: #F9F5E5;
+    --strong-green: #879B5A;
+    --light-green: #C3CDAD;
+    --transparent-green: #E1E6D6;
+    --nav-bar-height: 100px;
+    --half-height: 50px;
+    --quarter-height: 25px;
+    --mobile-margin: 80%;
+    --in-between: 4rem;
+
+    --small-font: 0.8rem;
+}
+
+ul {
+  list-style-type: none;
+  display: block;
+  padding-left: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+html {
+  height: 100%;
+}
+body, ul, li, footer, h3, h4, h5  {
+  font-family: 'Space Mono', monospace;
+  font-weight: 200;
+}
+ol {
+  line-height: 1.5;
+}
+h1, h2 {
+  font-family: 'East Sea Dokdo', serif;
+}
+h1 {
+  font-size: 5rem;
+  margin: 0;
+}
+h2 {
+  font-size: 3rem;
+  margin: 0;
+}
+h3 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+h5 {
+  font-size: 1rem;
+  font-weight: bold;
+  /* font-size: 20px; */
+}
+footer {
+  background-color: var(--strong-green);
+  padding: 25px;
+}

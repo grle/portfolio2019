@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width">
+  <title>Grace Lee | Portfolio</title>
+
+  <link rel="stylesheet" href="styles/normalize.css">
+  <!-- <link rel="stylesheet" href="styles/reset.css"> -->
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/project.css">
+
+  <!-- favicon 16x16 -->
+  <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <img src="images/arrow.png" width="100px">
+  </button>
+  <!--header-->
+  <div class="content">
+    <header class= "header">
+      <nav class="header-nav">
+        <!--icon-->
+        <a href="index.html" class="icon">
+          <img src="images/Icon.png" width="50px">
+        </a>
+        <!-- navigate to pages here -->
+        <ul class="header-nav_3">
+          <li>
+            <a href="index.html">PORTFOLIO</a>
+          </li>
+          <li>
+            <a href="#contact_me">CONTACT</a>
+          </li>
+          <li>
+            <a href="resume.pdf"
+            target="_blank" >
+              RESUME</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- intro blurb -->
+      <div class= "intro">
+        <div class="holder">
+          <h1>StarCrossed</h1>
+          <p>StarCrossed is an app that connects people based on
+          astrological and personal compatibility. It can be used for dating
+          or finding friends.</p>
+          <a href="https://www.figma.com/proto/Nh3nvE6YKVFuqQaxod9LFf0p/StarCrossed?node-id=110%3A10236&viewport=1375%2C-779%2C0.460871&scaling=scale-down"
+          target="_blank">
+            <button class="green-button center-button">VIEW PROTOTYPE</button>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <img src="images/Project2/StarCrossed_LargeImg.png" class="FrontImageOne">
+    <img src="images/Project2/StarCrossed_SmallImg.png" class="FrontImageTwo">
+
+    <div class="background-green">
+      <section class="sec">
+        <h2>TABLE OF CONTENTS</h2>
+        <div class="table-contents">
+          <ul>
+            <li><a href="#sec01">01. OVERVIEW</a></li>
+            <li><a href="#sec02">02. PROBLEM</a></li>
+            <li><a href="#sec03">03. USER SURVEY</a></li>
+            <li><a href="#sec04">04. USER PERSONA</a></li>
+            <li><a href="#sec05">05. COMPETITIVE ANALYSIS</a></li>
+            <li><a href="#sec06">06. USER STORIES</a></li>
+            <li><a href="#sec07">07. USER FLOW</a></li>
+          </ul>
+          <ul>
+            <li><a href="#sec08">08. SITEMAP</a></li>
+            <li><a href="#sec09">09. WIREFRAMES</a></li>
+            <li><a href="#sec10">10. BRAINSTORM</a></li>
+            <li><a href="#sec11">11. BRANDING</a></li>
+            <li><a href="#sec12">12. USER TESTING</a></li>
+            <li><a href="#sec13">13. PROTOTYPE</a></li>
+            <li><a href="#sec14">WHAT I LEARNED</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <!--01. ROLES-->
+    <div class="c1_holder top-space">
+      <div class="c1">
+        <h5>DESIGN ROLES</h5>
+        <ul>
+          <li>UX Design</li>
+          <li>Research</li>
+          <li>Visual Design</li>
+          <li>Brand & Identity</li>
+        </ul>
+      </div>
+
+      <div class="c1">
+        <h5>DELIVERABLES</h5>
+        <ul>
+          <li>User Surveys</li>
+          <li>Personas</li>
+          <li>User Stories</li>
+          <li>User Flow</li>
+          <li>Competitive Analysis</li>
+          <li>Wireframes</li>
+          <li>Brainstorm</li>
+          <li>Style Guide</li>
+          <li>User Testing</li>
+          <li>User Research</li>
+          <li>Prototype</li>
+        </ul>
+      </div>
+
+      <div class="c1">
+        <h5>TOOLS</h5>
+        <ul>
+          <li>Figma</li>
+          <li>Google Form Surveys</li>
+        </ul>
+      </div>
+
+    </div>
+
+
+      <!--02. OVERVIEW-->
+      <section class="sec" id="sec01">
+      <h2>01. OVERVIEW</h2>
+        <p>Astrology is a very popular subject, especially among Millennials and
+          Generation Z, many of whom use it to determine relationship
+          compatibility. However, despite the popularity of dating apps, there
+          are no dating apps that include astrology in it as a key component.
+          Thus, my StarCrossed app is meant to unify astrology and dating into a
+          singular app. Users can use this app to not only understand astrology
+          and keep up with horoscopes, but connect with people based on
+          astrological and personal compatibility.
+        </p>
+      </section>
+
+      <!--03. PROBLEM-->
+      <section class="sec" id="sec02">
+        <h2>02.PROBLEM</h2>
+          <p>While there are many astrology apps and dating apps available, many
+            users are dissatisfied with both. For astrology apps, most users feel
+            that they do not understand enough about astrology to understand how
+            to apply it to their lives. For dating apps, many users, particularly
+            women, do not feel comfortable using them because of online harassment
+            and concerns with safety. As such, StarCrossed aims to not only merge
+            the two subjects into a single app, but to provide a positive
+            experience for everyone who wants to use it.
+          </p>
+      </section>
+
+
+      <!--04. USER SURVEY-->
+      <section class="sec" id="sec03">
+        <h2>03. USER SURVEY</h2>
+          <p>When I wrote the survey, I wanted there to be space such that in
+            the event that there was not a market for astrology dating apps, I
+            could use the information to go into a different direction with this
+            project. The results I got from the people who completed the survey
+            went as follows:
+          </p>
+          <div class="background">
+            <span class="bold-me space">The most common reasons why people use astrology:
+            </span>
+            <table class="stat-table">
+              <tr>
+                <th>Just for fun, or to connect with social groups:</th>
+                <th><span class="green_large">81.1%</span></th>
+              </tr>
+              <tr>
+                <th>Contextualize people's personalities:</th>
+                <th><span class="green_large">62.2%</span></th>
+              </tr>
+            </table>
+            <span class="bold-me space">Respondents use astrology to do the following:
+            </span>
+              <div class="stat-wrapper">
+                <div class="center-me">
+                  <span class="green_large">51.4%</span><br>
+                  <span class="ex">of users</span>
+                </div>
+                <ol>
+                  <li>Describe themselves and self actualize</li>
+                  <li>Use it as a guidance for navigating life</li>
+                </ol>
+              </div>
+            <span class="bold-me space">Are respondents open to using an astrology
+              dating app?</span>
+            <table class="stat-table">
+              <tr>
+                <th>Open:</th>
+                <th><span class="green_large">62.2%</span></th>
+              </tr>
+              <tr>
+                <th>Strongly enthusiastic:</th>
+                <th><span class="green_large">13.5%</span></th>
+              </tr>
+            </table>
+          <span class="bold-me space">Majority of people surveyed are:</span>
+            <div class="stat-wrapper">
+              <div><span class="green_med">Millennials</span></div><br>
+              <div class="genz"><span class="green_med">Generation Z</span></div>
+            </div>
+          </div>
+          <p>From the responses, it is clear that there is a market for this
+            kind of app among astrology users, especially if they use it to
+            figure out aspects of their individual personality. It is also
+            important to note that for respondants who are not connected with
+            astrology,
+            81.8% of people
+            are open to using an astrology app
+            provided that it explains to them what different astrology terms
+            mean, as well as the purpose of the different signs within their
+            natal chart. This is determined by one's location and time of birth,
+            and is meant to explain the intricacies of one's personality. This
+            is to say that if the app provides educational material about how
+            astrology works, it may garner interest from people who are both
+            passingly familiar with astrology and already invested in astrology.
+          </p>
+
+          <!-- change to href later-->
+          <!-- <div class="center_button">
+            <a href="https://drive.google.com/open?id=1C4Dot71gM6cWxBGLW_FQ8k6clqg3OlDU"
+            target="_blank" class="button_pink">view survey questions</a>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+
+      <!--05. USER PERSONA-->
+      <section class="sec" id="sec04">
+        <h2>04. USER PERSONA</h2>
+          <p>These user personas were created based on two different profiles:
+            Regina, who is a romantic and uses astrology as confirmation bias but
+            with a healthy grain of salt, and Natalie, who is a skeptic but uses
+            astrology to connect with people and make sense of their personality.
+          </p>
+        </div>
+      </section>
+      <div class="user-persona">
+        <div class="row0A">
+          <h3 class="p-title">REGINA</h3>
+          <h4 class="p-description">astrology amateur</h4>
+          <img src="images/Project2/UserPersona/regina_circle.png" class="p-img">
+        </div>
+        <div class="row0B">
+          <h3 class="p-title">NATALIE</h3>
+          <h4 class="p-description">skeptic</h4>
+          <img src="images/Project2/UserPersona/natalie_circle.png" class="p-img">
+        </div>
+
+        <div class="row1A">
+          <span class="bold-me">Age:</span> 25 years<br>
+          <span class="bold-me">Gender:</span> Woman<br><br>
+          <span class="bold-me">Quote:</span> <i>"For me, I just use astrology as confirmation
+          bias on myself"</i><br>
+        </div>
+        <div class="row1B">
+          <span class="bold-me">Age:</span> 22 years<br>
+          <span class="bold-me">Gender:</span> Non-Binary<br><br>
+          <span class="bold-me">Quote:</span> <i>"Astrology appeals to folks who want
+          guidance and a tool for self reflection and feel left out of
+          institutional religion. People crave structure during chaos and
+          astrology provides that outlet."</i><br>
+        </div>
+
+        <div class="row2A">
+          <!-- <span class="bold-me">MOTIVATIONS:</span><br>
+          Regina likes to dabble in astrology. She finds it useful to know the
+          signs and their traits, which helps her be observant to other people's
+          personal characteristics. -->
+          <!-- This translates to her interest in using
+          astrology for dating, in that she believes being observant in this
+          manner towards her potential partners can help her improve her dating
+          life. Regina's interest in using a dating app that incorporates
+          astrology is also based on sign compatibility, as well as the hopes
+          that she can understand who has had success with dating people who
+          share her sign. As a lifelong romantic, Regina is also open to a
+          dating app that will help her find someone meaningful to share a
+          connection with, and believes astrology has the potential to help
+          realize her romantic dreams. -->
+        </div>
+        <div class="row2B">
+          <!-- <span class="bold-me">MOTIVATIONS:</span><br>
+          Natalie likes to
+          connect with other people within the community through learning about
+          their signs. -->
+          <!-- They like the idea of having an app that encompasses both
+          of these things, and would like to try using it to find people through
+          the app. While they do not believe in astrology per se, they find it
+          helpful to use it to contextualize parts of their personality, to both
+          self actualize and understand aspects of other people's interiority to
+          determine compatibility. -->
+        </div>
+
+        <div class="row3A">
+          <span class="bold-me">GOALS:</span><br>
+          <ol class="inner-list">
+            <li>Learning more about astrology and the characteristics ascribed
+              to them so she can see them in other people</li>
+            <li>Connecting with a potential partner over astrological
+              compatibility</li>
+            <li>Finding relationships with people who have a shared interest in
+              astrology</li>
+          </ol>
+        </div>
+        <div class="row3B">
+          <span class="bold-me">GOALS:</span><br>
+          <ol class="inner-list">
+            <li>Using an astrology/dating app that allows them to connect with
+              other people</li>
+            <li>Having an app that could help plan dating by listing potential
+              dates or hangouts, with the option of it being based on their
+              chart compatibility</li>
+            <li>Learning more about how planets determine people's actions</li>
+          </ol>
+        </div>
+
+        <div class="row4A">
+          <span class="bold-me">FRUSTRATIONS:</span><br>
+          <ol class="inner-list">
+            <li>Not knowing enough about astrology to understand planetary
+              movement or sign compatibility to comprehend astrology's
+              application to relationships</li>
+            <li>Dating apps that are not friendly for women by doing little to
+              combat harassment</li>
+            <li>Difficulty finding a good way to establish compatibility with
+              dating apps</li>
+          </ol>
+        </div>
+        <div class="row4B">
+          <span class="bold-me">FRUSTRATIONS:</span><br>
+          <ol class="inner-list">
+            <li>Fear of how personal information will be used by tech
+              companies</li>
+            <li>Fear that one's birth chart shown in full could compromise
+              someone's security</li>
+            <li>People taking astrology too literally and excluding certain
+              signs </li>
+          </ol>
+        </div>
+
+        <div class="row5A">
+          <!-- <strong>BIOGRAPHY:</strong><br>
+          Regina is a Cancer and a horoscope addict. She is fond of cats and
+          traveling, and is an aspiring plant mom. While she works as a barista,
+          she has a strong interest in psychology and would like to one day work
+          as a therapist for her community. -->
+        </div>
+        <div class="row5B">
+          <!-- <strong>BIOGRAPHY</strong><br>
+            Natalie is a student who lives in New York, and is currently working
+            on getting their bachelor's degree in Statistics. They are
+            interested in playing mobile games such as Pokemon Go, as well as
+            finding funny memes on Twitter. -->
+        </div>
+      </div>
+
+
+      <!--08. COMPETITIVE ANALYSIS-->
+    <section class="sec" id="sec05">
+      <h2>05. COMPETITIVE ANALYSIS</h2>
+        <p>Because of the surprising lack of astrology centered dating
+        apps, I have used popular programs that are centered exclusively around
+        astrology or dating for my competitive analysis.
+        </p>
+      </section>
+
+      <div class="c1_holder2">
+        <!-- Google Drive-->
+        <div class="c1">
+          <img src="images/Project2/CompetitiveAnalysis/co-star.PNG" class="p-img">
+          <p>Co-star is by far the most popular astrology app according to
+            survey respondents. This app uses AI technology and NASA's data about
+            planetary bodies to create customized horoscopes for users based on
+            their natal chart. </p>
+        </div>
+        <!-- Dropbox -->
+        <div class="c1">
+          <img src="images/Project2/CompetitiveAnalysis/cafeastrology.png" class="p-img">
+          <p>In terms of websites, Cafe Astrology is an established, well known
+            site that has a wealth of information for astrology users of all
+            experiences. This page covers everything from generating natal
+            charts to explaining planetary placements and horoscopes.</p>
+        </div>
+        <!-- Amazon -->
+        <div class="c1">
+          <img src="images/Project2/CompetitiveAnalysis/bumble.png" class="p-img">
+          <p>For dating apps, I chose Bumble, which is a well known app that got
+            popular for having women reach out first in heterosexual
+            relationships. This feature was designed to give agency for women
+            and potentially decrease instances of harassment. </p>
+        </div>
+      </div>
+      <section class="sec2">
+        <span class="bold-me">Minimum Variable Product:</span>
+        <ol>
+          <li>Horoscopes based on sun signs</li>
+          <li>Natal chart for users, and an explanation as to what the signs in
+            the chart mean</li>
+          <li>Explaining planet placements</li>
+          <li>Connecting people using chart compatibility, but in a way that is
+            inclusive for skeptics of astrology</li>
+        </ol>
+        <span class="bold-me">Differentiators:</span>
+        <ol>
+          <li>Lack of astrology centric dating apps will make this product stand
+            out</li>
+          <li>Make the app open for astrology skeptics who use this to
+            contextualize their personalities</li>
+          <li>Make it open to friendships as well as romantic relationships</li>
+        </ol>
+      </div>
+      <a href="https://drive.google.com/open?id=1TzBuyM3XMBYkT2eMRhYYjoLLzynp9Iohiruh3yVyZrI"
+      target="_blank">
+        <button class="green-button center-button">READ ANALYSIS</button>
+      </a>
+    </section>
+
+      <!--06. USER STORIES-->
+    <section class="sec" id="sec06">
+      <h2>06. USER STORIES</h2>
+    </section>
+      <table class="user-stories">
+        <tr>
+          <th>USER</th>
+          <th>TASK</th>
+          <th>IMPORTANCE</th>
+        </tr>
+        <tr>
+          <td rowspan="10">New user</td>
+          <td>I want to sign up for a new account</td>
+          <td>high</td>
+        </tr>
+          <tr class="checker">
+            <td>Insert name and date/time/location of birth</td>
+            <td>high</td>
+          </tr>
+          <tr>
+            <td>Get a natal chart with an explanation of what it entails</td>
+            <td>high</td>
+          </tr>
+          <tr class="checker">
+              <td>Answer short questionnaire about what you are looking for when
+                connecting with other people</td>
+              <td>high</td>
+          </tr>
+          <tr>
+            <td>Set your preferences for potential matches</td>
+            <td>high</td>
+          </tr>
+          <tr class="checker">
+              <td>Write your biography and what you are looking for</td>
+              <td>high</td>
+          </tr>
+          <tr>
+            <td>Upload images for your profile</td>
+            <td>high</td>
+          </tr>
+          <tr class="checker">
+            <td>Facebook authentication</td>
+            <td>medium</td>
+          </tr>
+          <tr>
+            <td>Importing contacts you know</td>
+            <td>medium</td>
+          </tr>
+          <tr class="checker">
+            <td>Change information you put in the app</td>
+            <td>medium</td>
+          </tr>
+        <tr>
+          <td rowspan="10">Returning user</td>
+          <td>I want to sign in to my account</td>
+          <td>high</td>
+        </tr>
+          <tr class="checker">
+            <td>Search for someone to connect with</td>
+            <td>high</td>
+          </tr>
+          <tr>
+            <td>Send message request to a profile you want to connect with</td>
+            <td>high</td>
+          </tr>
+          <tr class="checker">
+            <td>Check your horoscopes of the day</td>
+            <td>high</td>
+          </tr>
+          <tr>
+            <td>Report or block accounts that you don't want to see</td>
+            <td>high</td>
+          </tr>
+          <tr class="checker">
+            <td>Change your filters or preferences</td>
+            <td>high</td>
+          </tr>
+          <tr>
+            <td>Accept or reject message requests from profiles that want to
+              connect with you</td>
+            <td>medium</td>
+          </tr>
+          <tr class="checker">
+            <td>Matchmake your friend with a profile that you think is
+            compatible with them</td>
+            <td>medium</td>
+          </tr>
+          <tr>
+            <td>Learn more about the signs in your natal chart</td>
+            <td>medium</td>
+          </tr>
+          <tr class="checker">
+            <td>Change your filters or preferences</td>
+            <td>medium</td>
+          </tr>
+        </tr>
+      </table>
+
+      <!--07. USER FLOW-->
+    <section class="sec" id="sec07">
+      <h2>07.USER FLOW</h2>
+        <p>The user flows are meant to show the trajectory for the following five features:
+          <ol>
+            <li>Creating a new account</li>
+            <li>Inputting information for new users</li>
+            <li>Finding a match</li>
+            <li>Confirming a match</li>
+            <li>Finding one's horoscope</li>
+          </ol>
+        </p>
+        </section>
+        <img src="images/Project2/UserFlow/userflow1.png" class= "userflow_group">
+        <img src="images/Project2/UserFlow/userflow2.png" class= "userflow_group">
+        <img src="images/Project2/UserFlow/userflow3.png" class= "userflow_group">
+        <img src="images/Project2/UserFlow/userflow4.png" class= "userflow_group">
+        <img src="images/Project2/UserFlow/userflow5.png" class= "userflow_group">
+      <img src="images/Project2/UserFlow/userflow0.png" class= "large_img large_img_none">
+    <!-- class= "large"> -->
+
+
+      <!-- SITEMAP -->
+    <section class="sec" id="sec08">
+      <h2>08. SITEMAP</h2>
+        <p>I combined the trajectories in the five user stories I created into a
+          single sitemap. I also included other features that were not in the
+          user flows, including a matchmaking feature and a way for users to
+          access their settings.
+        </p>
+      </section>
+      <img src="images/Project2/sitemap.png" class= "large_img">
+
+      <!--09. WIREFRAMES-->
+    <section class="sec" id="sec09">
+      <h2>09. WIREFRAMES</h2>
+      <p>The wireframes are made based on the sitemap and provides very
+        limited features. I have tested this with users, and while most can
+        figure out how to navigate the app, those who have limited knowledge
+        about astrology seem to be the most confused as to how to navigate
+        these wireframes since the explanations about the signs are not there,
+        but are represented as a block.
+      </p>
+    </section>
+      <div class="background">
+        <img src="images/Project2/Wireframes/wireframe.PNG" class="large_img large_img_none">
+        <img src="images/Project2/Wireframes/wireframe_small.PNG" class="small_img">
+        <a href="https://www.figma.com/proto/Nh3nvE6YKVFuqQaxod9LFf0p/StarCrossed?node-id=12%3A515&viewport=1375%2C-779%2C0.460871&scaling=min-zoom"
+        target="_blank">
+          <button class="green-button center-button">VIEW WIREFRAMES</button>
+        </a>
+      </div>
+
+
+      <!--10. BRAINSTORM-->
+    <section class="sec" id="sec10">
+      <h2>10. BRAINSTORM</h2>
+      <p>I made several sketches for a potential logo, playing off the name
+        "star crossed." I was aiming for something that captures the essense
+        of an astrology/dating branding without being too cheesy.
+      </p>
+      <img src="images/Project2/brainstorm.png" class="sketch">
+      <p>I eventually went with the star surrounded by twelve "mini-stars"
+        represented as dots, with each of them representing one of the twelve
+        signs of the zodiac. Here is a preliminary design that shows the
+        dimensions of the first iteration of my logo.
+      </p>
+      <img src="images/Project2/logo_grid.png" class="sketch">
+      <p>I also made sketches where I tried to organize the features that
+        should appear in the app, including essentials that should be in the
+        settings or filter sections. Some of these features also end up in the
+        profile page.
+      </p>
+      <img src="images/Project2/sketch.jpg" class="sketch">
+    </section>
+
+
+      <!--11. BRANDING-->
+    <section class="sec" id="sec11">
+      <h2>11. BRANDING</h2>
+      <p>I made a mood board to get a sense of what kind of brand I should
+        develop for the app. Looking at different images, I found that for
+        astrology related subjects, I leaned towards using darker
+        colors to represent the night sky.
+      </p>
+    </section>
+    <img src="images/Project2/moodboard.PNG" class="large_img">
+    <section class="sec2">
+      <p>I incorporated the color scheme into my style guide and my logo,
+        using dark blue colors. For font choice, I went with Inconsolata and
+        Special Elite because of how they resemble typewriting fonts. I chose
+        them because it conveyed an old-fashioned vibe that complemented the
+        longevity of astrology.
+      </p>
+    </section>
+      <img src="images/Project2/styleguide.PNG" class="large_img">
+
+
+      <!--12. USER TESTING-->
+    <section class="sec" id="sec12">
+      <h2>12. USER TESTING</h2>
+      <p>The <span class="bold-me">first iteration</span>
+         of the high fidelity mockup was made with bare
+        minimum aesthetics based on the wireframes. The initial appearance is
+        devoid of color and personality, and is meant to show the structure of
+        the app. The prototype is also availible below.
+      </p>
+    </section>
+      <div class="background">
+        <img src="images/Project2/UserTesting/Iteration1.png" class="onepic">
+        <a href="https://www.figma.com/proto/Nh3nvE6YKVFuqQaxod9LFf0p/StarCrossed?node-id=36%3A1&viewport=393%2C538%2C0.275168&scaling=scale-down"
+        target="_blank">
+          <button class="green-button center-button">VIEW PROTOTYPE</button>
+        </a>
+      </div>
+      <section class="sec2">
+        <p>The <span class="bold-me">second iteration</span>
+          was spent making adjustments to the previous iteration and making
+          changes that would help users navigate this site.
+        </p>
+        <p>One of the first changes I made was for a user who had large fingers,
+          and has trouble using small buttons. I increased the size of the
+          buttons that are meant to approve or reject potential matches to suit
+          their needs. The larger buttons I ultimately chose to use are at the
+          <span class="bold-me">right hand side</span>.
+        </p>
+      </section>
+      <div class="background">
+        <img src="images/Project2/UserTesting/it2_2.png" class="onepic">
+      </div>
+      <section class="sec2">
+        <p>I also made minor design changes in areas such as the new user
+          questionnaire section, in which I changed the "other" designation in
+          gender to "custom" to be more inclusive towards gender non-conforming
+          people. I am still not very satisfied with this method of gender
+          categorization, and it is something to look into if I were to do
+          future iterations of this project. I also changed the radial buttons,
+          which generally is used to select a single option, to a checkbox to
+          indicate users can choose more than one option. The final design
+          choice is on the
+          <span class="bold-me">right hand side</span>.
+        </p>
+      </section>
+      <div class="background">
+        <img src="images/Project2/UserTesting/it2_1.png" class="onepic">
+      </div>
+      <section class="sec2">
+        <p>Moreover, as I started to incorporate the branding into the prototype,
+          I found that some users had trouble with the design choices I made.
+          For instance, I used a glowing effect to mimic that of stars in the
+          night sky to stand out against the dark colors. However, some users
+          had trouble visually processing this app, as it produced a blurring
+          effect for them that makes it difficult to read. In deference to this,
+          I took the advice of one user who suggested that limiting the glowing
+          effect inside the button could make this more readable for them. The
+          final design choice is on the
+          <span class="bold-me">right hand side</span>.
+        </p>
+      </section>
+      <div class="background">
+        <img src="images/Project2/UserTesting/it2_3.png" class="onepic">
+      </div>
+      <section class="sec2">
+        <p>There was also a series of minor adjustments I made
+          for this app to be more inclusive, and the one that sticks out the
+          most was made by an airline assistant. Because she is constantly
+          traveling and has an unreliable location, distance is a tricky area
+          for her because she could be at different states at different times.
+          As such, I significantly increased the maximum distance so that people
+          with similar professions could also use this app. The final design
+          choice is on the
+          <span class="bold-me">right hand side</span>.
+        </p>
+      </section>
+      <div class="background">
+        <img src="images/Project2/UserTesting/it2_4.png" class="onepic">
+      </div>
+      <section class="sec2">
+        <p>After making these changes, I have the
+          <span class="bold-me">third iteration</span>
+          completed, which includes the aesthetics drawn up in the branding and
+          takes into consideration the feedback I got from the people who tested
+          this prototype. The app takes on the following appearance:
+        </p>
+      </section>
+      <div class="background">
+        <img src="images/Project2/UserTesting/Iteration3.png" class="onepic">
+      </div>
+
+      <!--13. PROTOTYPE-->
+    <section class="sec" id="sec13">
+      <h2>13. PROTOTYPE</h2>
+        <p>The completed prototype for the StarCrossed app, which is also the
+          current third iteration of this app, can be found here:</p>
+        <a href="https://www.figma.com/proto/Nh3nvE6YKVFuqQaxod9LFf0p/StarCrossed?node-id=110%3A10236&viewport=1375%2C-779%2C0.460871&scaling=scale-down"
+        target="_blank">
+          <button class="green-button center-button">VIEW PROTOTYPE</button>
+        </a>
+      </section>
+
+    <section class="sec bottom-space" id="sec14">
+      <h2>WHAT I LEARNED</h2>
+      <p>
+        I was unfamiliar with iOS as someone who only used android my entire
+        life, and I am unfamiliar with both astrology and dating apps. This
+        made it a challenging project in that I was doing something with
+        subjects that I do not have much prior knowledge to. I did think I was
+        over in my head when I first did this, so I was surprised by how well
+        this all came together, considering that I was not really sure what I
+        was doing in the process of creating this prototype. This helped me
+        feel more confident in my ability to tackle projects that are outside
+        my comfort zone.
+      </p>
+      <p>
+        I also found that I was able to create prototypes much faster than
+        before, and do a better job in directing users in the directions I
+        want them to take when they are navigating through my app. I could see
+        the improvements I made in designing and organizing my projects in
+        comparison with the previous one I was invested in, so it was
+        encouraging for me to see that I have grown somewhat as a designer.
+      </p>
+      <p>I also see the areas in this project where there is room for
+        improvement. I stopped at the iteration where I am at right now, but I
+        think being aware that there is always more that I can do with this
+        project can be helpful in making better products.
+      </p>
+    </section>
+
+      <!-- make into button? -->
+      <!-- <button class="next-button">
+        <a>view next project</a>
+      </button> -->
+
+      <section class="background" id="contact_me">
+        <h3 class="center">CONTACT ME</h3>
+        <ul class="contact_large">
+          <li>
+            <a href="mailto:gracelee.ux@gmail.com" target="_blank">
+              <img src="images/contact/email.png" width="100px" alt="email icon">
+            </a>
+          </li>
+          <li>
+            <a href="https://dribbble.com/graceavocado" target="_blank">
+              <img src="images/contact/dribble.png" width="100px" alt="dribbble icon">
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/grle" target="_blank">
+              <img src="images/contact/github.png" width="100px" alt="github icon">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/graceleeln/" target="_blank">
+              <img src="images/contact/linkedin.png" width="100px" alt="linkedin icon">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/grle_avo/" target="_blank">
+              <img src="images/contact/instagram.png" width="100px" alt="instagram icon">
+            </a>
+          </li>
+        </ul>
+        <ul class="contact_small">
+          <li>
+            <a href="mailto:gracelee.ux@gmail.com" target="_blank">
+              <img src="images/contact/email.png" width="50px" alt="email icon">
+            </a>
+          </li>
+          <li>
+            <a href="https://dribbble.com/graceavocado" target="_blank">
+              <img src="images/contact/dribble.png" width="50px" alt="dribbble icon">
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/grle" target="_blank">
+              <img src="images/contact/github.png" width="50px" alt="github icon">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/graceleeln/" target="_blank">
+              <img src="images/contact/linkedin.png" width="50px" alt="linkedin icon">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/grle_avo/" target="_blank">
+              <img src="images/contact/instagram.png" width="50px" alt="instagram icon">
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <footer class="foot">
+        &#169; Grace Lee 2019
+      </footer>
+
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126022629-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-126022629-1');
+      </script>
+
+      <!-- button -->
+      <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
+
+  </body>
+
+</html>
