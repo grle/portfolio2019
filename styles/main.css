@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  overflow: auto;
+  overflow: hidden;
   /* padding: 10px 50px; */
   position: fixed;
   width: 100%;
@@ -39,7 +39,7 @@
 .holder {
   padding-bottom: var(--half-height);
   text-align: center;
-  overflow: auto;
+  overflow: hidden;
 }
 .holder h2, .holder p {
   line-height: 1;
@@ -49,8 +49,9 @@
 .holder img {
   width: 60%;
   margin: auto;
-  overflow: auto;
+  /* overflow: auto; */
   padding-bottom: 20px;
+  max-width: 850px;
 }
 
 .middle_section {
