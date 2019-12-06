@@ -5,6 +5,12 @@
   margin-top: var(--half-height);
   /* margin-bottom: var(--half-height); */
 }
+/* .background-yellow {
+  background-color: var(--background-color);
+  margin-bottom: var(--half-height);
+  margin-top: var(--half-height);
+  padding: 5px;
+} */
 .background-img {
   width: 100%;
 }
@@ -36,6 +42,15 @@
   width: 50%;
   max-width: 800px;
 }
+
+.c3_holder {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1vw;
+  margin: 0px auto 20px auto;
+  width: 70%;
+  max-width: 900px;
+}
 .table-contents {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -55,8 +70,17 @@
 .bottom-space {
   padding-bottom: var(--nav-bar-height);
 }
+.background-pic {
+  width: 500px;
+}
 .solo-pic {
-  width: 50%;
+  width: 420px;
+  z-index: -1;
+  margin-top: -343px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  padding-right: 5px;
 }
 .onepic {
   display: block;
@@ -265,6 +289,9 @@
   .c1_holder, .c1_holder2, .c2_holder, .user-stories, .onepic {
     width: 80%;
   }
+  .c3_holder {
+    width: 90%;
+  }
   .sec, .sec2 {
     width: 80%;
   }
@@ -334,9 +361,7 @@
   .userflow_group {
     width: 90%;
   }
-  .solo-pic {
-    width: 80%;
-  }
+
   .FrontImageOne, .contact_large {
     display: none;
   }
@@ -378,6 +403,11 @@
   .c1_holder, .c1_holder2, .c2_holder, .onepic, .sketch {
     width: 90%;
   }
+  .c3_holder {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    width: 70%;
+  }
   .large, .user-stories, .white {
   width: 90%;
   }
@@ -412,6 +442,13 @@
   /* #myBtn img {
     display: none;
   } */
+  .background-pic {
+    width: 300px;
+  }
+  .solo-pic {
+    width: 250px;
+    margin-top: -205px;
+  }
   .label {
     width: 80%;
     padding: 10px 0 10px 0;
