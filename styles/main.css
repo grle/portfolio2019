@@ -42,7 +42,7 @@
   overflow: hidden;
 }
 .holder h2, .holder p {
-  line-height: 1;
+  /* line-height: 1; */
   width: 50%;
   margin: auto;
 }
