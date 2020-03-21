@@ -73,6 +73,9 @@
 .background-pic {
   width: 500px;
 }
+.background-pic-laptop {
+  width: 600px;
+}
 .solo-pic {
   width: 420px;
   z-index: -1;
@@ -81,6 +84,15 @@
   margin-left: auto;
   display: block;
   padding-right: 5px;
+}
+.solo-pic-laptop {
+  width: 425px;
+  z-index: -1;
+  margin-top: -393px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+
 }
 .onepic {
   display: block;
@@ -127,6 +139,10 @@
   width: 80%;
   display: block;
   margin: 20px auto 20px auto;
+}
+.p-img2 {
+  width: 90%;
+  display: block;
 }
 .row0A, .row1A, .row2A, .row3A, .row4A, .row5A,
 .row0B, .row1B, .row2B, .row3B, .row4B, .row5B {
@@ -429,6 +445,14 @@
   .large_img_none {
     display: none;
   }
+  .background-pic-laptop {
+    width: 400px;
+  }
+  .solo-pic-laptop {
+    width: 283px;
+    margin-top: -261px;
+  }
+
   #myBtn img {
     width: 50px;
   }
@@ -448,6 +472,13 @@
   .solo-pic {
     width: 250px;
     margin-top: -205px;
+  }
+  .background-pic-laptop {
+    width: 300px;
+  }
+  .solo-pic-laptop {
+    width: 214px;
+    margin-top: -196px;
   }
   .label {
     width: 80%;
